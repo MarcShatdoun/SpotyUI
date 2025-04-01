@@ -1,10 +1,30 @@
 ---
 import Library from '../assets/library.svg'
+import Plus from '../assets/plus.svg'
+import Rightarrow from '../assets/rightarrow.svg'
+
 ---
-<div class="col-span-2 row-span-5 rounded-xl border bg-[#121212] mx-2">
+<section class="col-span-2 row-span-5 rounded-xl border bg-[#121212] mx-2 max-w-96">
+    
     <div class="w-full h-20 flex items-center pl-4">
         <a href="" class="text-gray-400 font-bold flex items-center gap-2"> <Library class="fill-gray-400"/>Your Library</a>
-        
+        <div class="bg-[#1f1f1f] rounded-full w-10 h-10 flex items-center justify-center ">
+            <Plus class="fill-gray-400 w-4 h-4" />
+             
+        </div>
+        <div>
+            <Rightarrow class="fill-gray-400 w-10 h-10  p-2" />
+        </div> 
     </div>
 
-</div>
+    <div class="w-full h-20 flex items-center pl-4">
+        <nav class="flex gap-4 text-white">
+            <button class="bg-surface rounded-4xl flex items-center justify-center p-2 hover:bg-surface-hover">Playlists</button>
+
+            <button class="bg-surface rounded-4xl flex items-center justify-center p-2 hover:bg-surface-hover">Artists</button>
+
+            <button class="bg-surface rounded-4xl flex items-center justify-center p-2 hover:bg-surface-hover">Podcasts & Shows</button>
+        </nav>
+    </div>
+
+</section>

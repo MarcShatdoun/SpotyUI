@@ -2,3 +2,8 @@
 * {
     box-sizing: border-box;
 }
+
+@theme {
+    --color-surface: hsla(0,0%,100%,.1);
+    --color-surface-hover: hsla(0,0%,100%,.14);
+  }
